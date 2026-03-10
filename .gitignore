@@ -1,0 +1,50 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.eggs/
+
+# Model weights and adapters (large binary files)
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.onnx
+pirate-model/
+adapters/
+
+# Hugging Face cache
+.cache/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (if any frontend projects)
+node_modules/
+
+# Misc
+*.log
